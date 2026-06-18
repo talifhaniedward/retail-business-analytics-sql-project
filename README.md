@@ -8,7 +8,7 @@ The objective was to answer **executive-level business questions** and generate 
 
 The analysis was performed on a large-scale retail database containing:
 
-* **5K+ sales records**
+* **500K+ sales records**
 * Inventory transactions
 * Customer segmentation data
 * Product-level performance
@@ -17,7 +17,7 @@ The analysis was performed on a large-scale retail database containing:
 ---
 ## Key Project Metrics
 
-- **5K+ sales records analyzed**
+- **500K+ sales records analyzed**
 - **13 executive business questions answered**
 - **4 provinces analyzed**
 - **7 major brands analyzed**

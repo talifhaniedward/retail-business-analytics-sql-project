@@ -8,7 +8,7 @@ The objective was to answer **executive-level business questions** and generate 
 
 The analysis was performed on a large-scale retail database containing:
 
-* **500K+ sales records**
+* **1.2 million+ rows analyzed across 6 tables**
 * Inventory transactions
 * Customer segmentation data
 * Product-level performance
@@ -19,7 +19,7 @@ The analysis was performed on a large-scale retail database containing:
 
 - **1.2 million+ rows analyzed across 6 tables**
 - **500,000 sales transactions**
-- **500,000 inventory record**s
+- **500,000 inventory records**
 - **100,000 unique customers**
 - **100,000 products across 7 brands**
 - **100 stores across 4 South African provinces**
@@ -133,6 +133,7 @@ Store and location information:
 * Store Type
 * Store Size
 * OpeningYear
+
 #### DimDate
 Calendar dimension used for time-based analysis:
 
@@ -142,6 +143,7 @@ Calendar dimension used for time-based analysis:
 * Month
 * MonthName
 * Day
+
 ---
 
 ## Star Schema
@@ -198,7 +200,7 @@ Continue investing in Gauteng while identifying opportunities to improve store-l
 Which province performs best after normalizing revenue by store count?
 
 ### SQL Query
-```Sql
+```sql
 SELECT
     ds.Province,
     COUNT(DISTINCT ds.StoreID) AS NumberOfStores,
@@ -240,7 +242,7 @@ Replicate successful Western Cape operating strategies in lower-performing provi
 Does store density reduce customer concentration?
 
 ### SQL Query
-``` Sql
+```sql
 SELECT
     ds.Province,
     COUNT(DISTINCT fs.CustomerID) AS UniqueCustomers,
@@ -473,7 +475,7 @@ ORDER BY ProfitMarginPct DESC;
 
 ### Key Insight
 
-**Accessories generated the highest margins (~35%)**, despite lower revenue.
+**Monitors and Printers generated the highest profit margins**, despite lower revenue volumes.
 
 ### Recommendation
 
@@ -638,7 +640,7 @@ Improve supply chain responsiveness in underperforming provinces.
 What are the monthly revenue trends and seasonal patterns?
 
 ### SQL Query
-``` sql
+```sql
 SELECT
     dd.Year,
     dd.MonthName,
@@ -725,7 +727,7 @@ This reinforces seasonal patterns identified in monthly analysis.
 
 ✅ HP and Dell dominate business performance.
 
-✅ Laptops drive revenue while accessories maximize margins.
+✅ Laptops drive revenue while Monitors and Printers maximize margins.
 
 ✅ Corporate customers are the highest-value segment.
 
@@ -745,9 +747,9 @@ Strengthen replenishment forecasting to reduce stockouts.
 
 Apply best-performing operational strategies nationally.
 
-### 4. Increase Accessory Cross-Selling
+### 4. Increase Cross-Selling of High-Margin Products
 
-Bundle accessories with laptops and desktops to improve margins.
+Bundle Monitors and Printers with Laptops and Desktops to improve overall margins.
 
 ### 5. Expand Corporate Customer Strategy
 
@@ -763,6 +765,8 @@ Focus on high-value B2B customers.
 * Aggregations
 * GROUP BY
 * CASE WHEN
+* CTEs (Common Table Expressions)
+* Views
 * KPI Analysis
 * Date-Based Analysis
 * Business Query Optimization
@@ -811,8 +815,7 @@ retail-sales-inventory-sql-analysis/
 │
 ├── screenshots/
 │
-└──  README.md
-
+└── README.md
 ```
 
 ---
@@ -824,4 +827,4 @@ retail-sales-inventory-sql-analysis/
 Junior Data Analyst | SQL | Python | Power BI | Data Analytics
 
 - LinkedIn: http://www.linkedin.com/in/talifhani-edward-nedambale/
-- GitHub: [Your GitHub URL]
+- GitHub: https://github.com/talifhaniedward

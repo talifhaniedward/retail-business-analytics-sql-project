@@ -189,7 +189,9 @@ ORDER BY Revenue DESC;
 
 ### Recommendation
 
-Continue investing in Gauteng while identifying opportunities to improve store-level efficiency.
+Continue investing in Gauteng as the highest revenue-generating province, but focus on improving efficiency at the store level to maximise returns on that investment.
+---
+
 
 ---
 
@@ -231,7 +233,7 @@ This indicates **stronger operational efficiency**.
 
 ### Recommendation
 
-Replicate successful Western Cape operating strategies in lower-performing provinces.
+Review what Western Cape stores are doing differently and apply those same practices to stores in KwaZulu-Natal and Eastern Cape.
 
 ---
 
@@ -320,7 +322,8 @@ ORDER BY StockoutRate DESC;
 
 ### Recommendation
 
-Improve inventory planning and replenishment forecasting.
+Make Eastern Cape the priority for inventory improvement. With the highest stockout rate nationally, stores in this province are likely losing sales due to empty shelves.
+
 
 ---
 
@@ -373,7 +376,8 @@ Multiple stores in **Eastern Cape and KwaZulu-Natal recorded stockout rates abov
 
 ### Recommendation
 
-Conduct targeted inventory audits for high-risk stores.
+Immediately audit the top 10 stores with the highest stockout rates and put an emergency restocking plan in place. These stores are the highest risk to daily revenue.
+
 
 ---
 
@@ -406,7 +410,8 @@ ORDER BY Revenue DESC;
 
 ### Recommendation
 
-Strengthen supplier partnerships with top-performing brands.
+Always keep HP, Dell, and Lenovo products in stock. These three brands drive the most revenue and profit a shortage of any of them will have a direct impact on the business.
+
 
 ---
 
@@ -441,7 +446,7 @@ ORDER BY Revenue DESC;
 
 ### Recommendation
 
-Prioritize laptop inventory planning and promotional campaigns.
+Keep laptop stock levels high at all times, especially in Eastern Cape and KwaZulu-Natal where stockouts are already a problem. Laptops are the top revenue driver across every brand.
 
 ---
 
@@ -479,7 +484,7 @@ ORDER BY ProfitMarginPct DESC;
 
 ### Recommendation
 
-Increase **cross-selling and product bundling** to maximize margins.
+Train sales staff to recommend a Monitor or Printer with every Laptop or Desktop sale. These products have the highest profit margins and selling more of them will improve overall profitability.
 
 ---
 
@@ -517,7 +522,7 @@ ORDER BY Revenue DESC;
 
 ### Recommendation
 
-Expand B2B sales strategies and enterprise partnerships.
+Build a dedicated sales team for Corporate and Education customers. They spend the most per transaction giving them personalised service and volume discounts will grow their loyalty and increase revenue.
 
 ---
 
@@ -555,7 +560,7 @@ ORDER BY RevenuePerCustomer DESC;
 
 ### Recommendation
 
-Explore customer retention and expansion strategies in KZN.
+Protect the customer base in KwaZulu-Natal. These customers spend the most per transaction introduce a loyalty programme to retain them and attract more customers with the same spending profile..
 
 ---
 
@@ -631,7 +636,8 @@ ORDER BY i.StockoutRate DESC;
 
 ### Recommendation
 
-Improve supply chain responsiveness in underperforming provinces.
+Treat inventory shortages in Eastern Cape and KwaZulu-Natal as a revenue problem, not just a supply chain problem. Fixing stock availability in these provinces is one of the fastest ways to grow revenue there.
+
 
 
 ## Q12. How has revenue changed over time?
@@ -669,8 +675,8 @@ However:
 This suggests strong seasonal patterns in customer purchasing behavior.
 
 ### Recommendation
-* Increase stock levels and marketing campaigns ahead of January peaks.
-* Introduce promotions in February to reduce seasonal slowdowns.
+* Stock up and increase marketing spend every December to prepare for the January peak.
+* Launch a targeted promotion every February to prevent the recurring revenue dip that happens every year.
 
 ## Q13. Which quarter generates the highest revenue?
 ### Business Question

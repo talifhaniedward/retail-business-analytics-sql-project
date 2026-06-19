@@ -227,6 +227,7 @@ ORDER BY RevenuePerStore DESC;
 
 <img width="430" height="133" alt="image" src="https://github.com/user-attachments/assets/050a2a5d-321a-462c-818e-a77cd071a0f1" />
 
+[See full Q2 output here](./q2_province_efficiency.csv)
 
 ### Key Insight
 
@@ -266,6 +267,8 @@ ORDER BY CustomersPerStore DESC;
 ### Output
 
 <img width="386" height="144" alt="image" src="https://github.com/user-attachments/assets/a9bcce6d-9643-4985-aa88-78ee6d4d2855" />
+
+[See full Q3 output here](./q3_store_saturation.csv)
 
 
 ### Key Insight
@@ -318,6 +321,7 @@ ORDER BY StockoutRate DESC;
 
 <img width="366" height="142" alt="image" src="https://github.com/user-attachments/assets/28bf33e7-20a5-4d26-b01c-f3a0fa2e7dc8" />
 
+[See full Q4 output here](./q4_inventory_availability.csv)
 
 ### Key Insight
 
@@ -372,6 +376,7 @@ LIMIT 10;
 
 <img width="548" height="269" alt="image" src="https://github.com/user-attachments/assets/c3f451ab-3f93-46d1-8f1c-35390b7e6353" />
 
+[See full Q5 output here](./q5_inventory_problem_stores.csv)
 
 ### Key Insight
 
@@ -405,6 +410,8 @@ ORDER BY Revenue DESC;
 ### Output
 
 <img width="207" height="208" alt="image" src="https://github.com/user-attachments/assets/3bee4887-7ef6-4018-bc8a-1ee85bcb2355" />
+
+[See full Q6 output here](./q6_brand_performance.csv)
 
 
 ### Key Insight
@@ -441,6 +448,8 @@ ORDER BY Revenue DESC;
 ### Output
 
 <img width="280" height="395" alt="image" src="https://github.com/user-attachments/assets/8a9cce2c-97b3-4e73-800a-3d28b2d4e61a" />
+
+[See full Q7 output here](./q7_product_profitability.csv)
 
 
 ### Key Insight
@@ -480,6 +489,8 @@ ORDER BY ProfitMarginPct DESC;
 
 <img width="373" height="266" alt="image" src="https://github.com/user-attachments/assets/3e9ac26f-7dad-4e1e-b990-33eaa6f800a1" />
 
+[See full Q8 output here](./q8_profit_margin_analysis.csv)
+
 
 ### Key Insight
 
@@ -518,6 +529,8 @@ ORDER BY Revenue DESC;
 
 <img width="433" height="121" alt="image" src="https://github.com/user-attachments/assets/b9e2076f-d319-4912-a52b-ae1048bd90cb" />
 
+[See full Q9 output here](./q9_customer_segments.csv)
+
 
 ### Key Insight
 
@@ -555,6 +568,8 @@ ORDER BY RevenuePerCustomer DESC;
 ### Output
 
 <img width="452" height="140" alt="image" src="https://github.com/user-attachments/assets/69c983b3-8ff5-422d-8c6c-307d9bc3a703" />
+
+[See full Q10 output here](./q10_high_value_customers)
 
 
 ### Key Insight
@@ -632,6 +647,7 @@ ORDER BY i.StockoutRate DESC;
 
 <img width="566" height="143" alt="image" src="https://github.com/user-attachments/assets/4bda8a1e-4e01-42bd-be37-b3178a211b1f" />
 
+[See full Q11 output here](./q11_stockout_vs_revenue.csv)
 
 ### Key Insight
 
@@ -702,6 +718,7 @@ ORDER BY Revenue DESC;
 
 <img width="167" height="308" alt="image" src="https://github.com/user-attachments/assets/6a545b78-da0a-4bbf-967a-7349868616ec" />
 
+[See full Q13 output here](./q13_quarterly_revenue.csv)
 
 ### Key Insight
 

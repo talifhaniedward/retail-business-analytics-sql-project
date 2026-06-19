@@ -182,6 +182,9 @@ ORDER BY Revenue DESC;
 
 <img width="242" height="112" alt="image" src="https://github.com/user-attachments/assets/6f526230-f36a-4fde-b109-bd988ec3b340" />
 
+[See full Q1 output here](./q1_provincial_performance.csv)
+
+
 
 ### Key Insight
 

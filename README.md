@@ -6,6 +6,8 @@ This project analyzes **retail sales, profitability, inventory performance, cust
 
 The objective was to answer **executive-level business questions** and generate **data-driven recommendations** to improve operational efficiency, profitability, customer value, and inventory management.
 
+**Note:** This dataset was synthetically generated using Python to simulate a 3-year retail business period from January 2024 to December 2026.
+
 The analysis was performed on a large-scale retail database containing:
 
 * 500,000 sales transactions across 4 South African provinces

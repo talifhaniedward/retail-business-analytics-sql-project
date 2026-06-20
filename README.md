@@ -8,11 +8,11 @@ The objective was to answer **executive-level business questions** and generate 
 
 The analysis was performed on a large-scale retail database containing:
 
-* **1.2 million+ rows analyzed across 6 tables**
-* Inventory transactions
-* Customer segmentation data
-* Product-level performance
-* Store performance across South African provinces
+* 500,000 sales transactions across 4 South African provinces
+* 500,000 inventory records across 100 stores
+* Customer segmentation data covering 100,000 unique customers
+* Product-level performance across 7 major brands
+* 3-year time-series analysis (2024–2026)
 
 ---
 ## Key Project Metrics
@@ -36,6 +36,8 @@ A national electronics retailer wanted to better understand:
 * Which customer segments generate the highest value
 * Which stores experience inventory challenges
 
+  
+
 The goal was to transform raw transactional data into **executive-level business insights for strategic decision-making**.
 
 ---
@@ -45,12 +47,19 @@ The goal was to transform raw transactional data into **executive-level business
 This project focuses on:
 
 ✔ Sales performance analysis
+
 ✔ Profitability analysis
+
 ✔ Customer analytics
+
 ✔ Inventory management insights
+
 ✔ Store performance evaluation
+
 ✔ Provincial business comparisons
+
 ✔ Time-series and trend analysis
+
 ✔ Strategic business recommendations
 
 ---
@@ -188,7 +197,7 @@ ORDER BY Revenue DESC;
 
 ### Key Insight
 
-**Gauteng is the strongest contributor to company performance**, generating the highest revenue (**R7.63B**) and profit (**R1.47B**).
+Gauteng is the strongest contributor to company performance, generating the highest revenue (**R7.63B**) and profit (**R1.47B**).
 
 ### Recommendation
 
@@ -231,7 +240,7 @@ ORDER BY RevenuePerStore DESC;
 
 ### Key Insight
 
-**Western Cape achieved the highest revenue per store**, outperforming Gauteng despite having fewer stores.
+Western Cape achieved the highest revenue per store, outperforming Gauteng despite having fewer stores.
 
 This indicates **stronger operational efficiency**.
 
@@ -273,7 +282,7 @@ ORDER BY CustomersPerStore DESC;
 
 ### Key Insight
 
-Although Gauteng generated the highest revenue, it had the **lowest customers per store**.
+Although Gauteng generated the highest revenue, it had the lowest customers per store.
 
 This suggests **market cannibalization caused by store concentration**.
 
@@ -325,7 +334,7 @@ ORDER BY StockoutRate DESC;
 
 ### Key Insight
 
-**Eastern Cape recorded the highest stockout rate (11.98%)**, potentially affecting sales performance.
+Eastern Cape recorded the highest stockout rate (**11.98%**), potentially affecting sales performance.
 
 ### Recommendation
 
@@ -380,7 +389,7 @@ LIMIT 10;
 
 ### Key Insight
 
-Multiple stores in **Eastern Cape and KwaZulu-Natal recorded stockout rates above 15%**, indicating supply chain inefficiencies.
+Multiple stores in Eastern Cape and KwaZulu-Natal recorded stockout rates above **15%**, indicating supply chain inefficiencies.
 
 ### Recommendation
 
@@ -416,7 +425,7 @@ ORDER BY Revenue DESC;
 
 ### Key Insight
 
-**HP, Dell, and Lenovo dominate revenue and profit generation**.
+HP, Dell, and Lenovo dominate revenue and profit generation.
 
 ### Recommendation
 
@@ -454,7 +463,7 @@ ORDER BY Revenue DESC;
 
 ### Key Insight
 
-**Laptops are the primary revenue drivers across all brands**.
+Laptops are the primary revenue drivers across all brands.
 
 ### Recommendation
 
@@ -494,11 +503,11 @@ ORDER BY ProfitMarginPct DESC;
 
 ### Key Insight
 
-**Monitors and Printers generated the highest profit margins**, despite lower revenue volumes.
+Accessories generated the highest profit margins at approximately **35%**, significantly outperforming all other product categories. Laptops and Desktops generate the most revenue but have the lowest margins at around **18%**.
 
 ### Recommendation
 
-Train sales staff to recommend a Monitor or Printer with every Laptop or Desktop sale. These products have the highest profit margins and selling more of them will improve overall profitability.
+Train sales staff to recommend an Accessory with every Laptop, Desktop, or Monitor sale. Accessories deliver the highest profit margin of any product category at **35%** selling more of them alongside high-volume products will significantly improve overall profitability without needing to acquire new customers.
 
 ---
 
@@ -534,7 +543,7 @@ ORDER BY Revenue DESC;
 
 ### Key Insight
 
-**Corporate customers generated the highest revenue and revenue per customer**.
+Corporate customers generated the highest revenue and revenue per customer.
 
 ### Recommendation
 
@@ -574,7 +583,7 @@ ORDER BY RevenuePerCustomer DESC;
 
 ### Key Insight
 
-**KwaZulu-Natal recorded the highest revenue per customer**.
+KwaZulu-Natal recorded the highest revenue per customer.
 
 ### Recommendation
 
@@ -651,7 +660,7 @@ ORDER BY i.StockoutRate DESC;
 
 ### Key Insight
 
-**Eastern Cape and KwaZulu-Natal recorded higher stockout rates and lower revenue performance**, suggesting inventory shortages may constrain growth.
+Eastern Cape and KwaZulu-Natal recorded higher stockout rates and lower revenue performance, suggesting inventory shortages may constrain growth.
 
 ### Recommendation
 
@@ -684,7 +693,7 @@ ORDER BY dd.Year, dd.Month;
 
 ### Key Insight
 
-**Revenue remained relatively stable across the 3-year period, indicating predictable business performance.**
+Revenue remained relatively stable across the 3-year period, indicating predictable business performance.
 
 However:
 
@@ -722,12 +731,12 @@ ORDER BY Revenue DESC;
 
 ### Key Insight
 
-**Revenue remained highly consistent across all quarters.**
+Revenue remained highly consistent across all quarters.
 
 However:
 
-* Q3 2026 recorded the highest quarterly revenue (R1.54B)
-* Q1 2025 recorded the lowest revenue (R1.48B)
+* Q3 2026 recorded the highest quarterly revenue (**R1.54B**)
+* Q1 2025 recorded the lowest revenue (**R1.48B**)
 
 This reinforces seasonal patterns identified in monthly analysis.
 
@@ -743,43 +752,46 @@ This reinforces seasonal patterns identified in monthly analysis.
 
 ## Key Findings
 
-✅ Gauteng generated the highest total revenue and profit.
+✅ Gauteng generated the highest total revenue (**R7.63B**) and profit (**R1.47B**).
 
-✅ Western Cape achieved the strongest revenue efficiency per store.
+✅ Western Cape achieved the strongest revenue per store the most operationally efficient province.
 
-✅ Gauteng may be experiencing **store saturation**.
+✅ Gauteng shows signs of store saturation recording the lowest customers per store nationally.
 
-✅ Eastern Cape recorded the highest stockout rates.
+✅ Eastern Cape recorded the highest stockout rate at **11.98%** the highest risk province for lost sales.
 
-✅ HP and Dell dominate business performance.
+✅ HP, Dell, and Lenovo dominate both revenue and profit generation across all provinces.
 
-✅ Laptops drive revenue while Monitors and Printers maximize margins.
+✅ Laptops are the primary revenue driver while Accessories maximize profit margins at ~**35%**.
 
-✅ Corporate customers are the highest-value segment.
+✅ Corporate customers are the highest-value segment generating the most revenue and highest spend per transaction.
+
+✅ KwaZulu-Natal customers spend the most per transaction of any province.
 
 ---
 
 # Strategic Business Recommendations
 
+
 ### 1. Optimize Gauteng Store Density
 
-Reduce market cannibalization by reviewing store concentration.
+Gauteng has the highest revenue but the lowest customers per store. Review store locations across the province and consider closing or relocating stores that are too close to each other to reduce internal competition.
 
 ### 2. Improve Eastern Cape Inventory Planning
 
-Strengthen replenishment forecasting to reduce stockouts.
+Eastern Cape has the highest stockout rate nationally at 11.98%. Increase stock levels for high-demand products in this province and set up automatic reorder triggers to prevent shelves from running empty.
 
 ### 3. Replicate Western Cape Success
 
-Apply best-performing operational strategies nationally.
+Western Cape generates the highest revenue per store despite having fewer locations. Identify what these stores are doing differently and roll out those same practices to stores in KwaZulu-Natal and Eastern Cape.
 
-### 4. Increase Cross-Selling of High-Margin Products
+### 4. Increase Accessory Sales Across All Stores
 
-Bundle Monitors and Printers with Laptops and Desktops to improve overall margins.
+Accessories deliver the highest profit margin at ~35% — almost double that of Laptops and Desktops. Train sales staff to recommend an Accessory with every Laptop, Desktop, and Monitor sale to improve overall profitability.
 
 ### 5. Expand Corporate Customer Strategy
 
-Focus on high-value B2B customers.
+Corporate customers generate the highest revenue and spend the most per transaction. Create a dedicated sales team for Corporate and Education customers, offer volume discounts, and introduce a loyalty programme to retain and grow this high-value segment.
 
 ---
 
@@ -787,23 +799,25 @@ Focus on high-value B2B customers.
 
 ### SQL Skills
 
-* SQL Joins
-* Aggregations
-* GROUP BY
-* CASE WHEN
+* Multi-table JOINs
+* Aggregations (SUM, COUNT, ROUND, AVG)
+* GROUP BY and HAVING
+* CASE WHEN statements
 * CTEs (Common Table Expressions)
-* Views
-* KPI Analysis
-* Date-Based Analysis
-* Business Query Optimization
+* Subqueries
+* Date-based analysis using DimDate
+* Query performance optimization using Indexes
 
 ### Analytics Skills
 
-* Retail Analytics
-* Customer Segmentation
-* Inventory Analytics
-* Profitability Analysis
-* Executive Storytelling
+* Retail Sales Analytics
+* Customer Segmentation Analysis
+* Inventory & Supply Chain Analytics
+* Profitability & Margin Analysis
+* KPI Development & Measurement
+* Time-Series & Trend Analysis
+* Business Insight Communication
+* Data-Driven Decision Making
 
 ### Data Modeling Skills
 
@@ -812,6 +826,7 @@ Focus on high-value B2B customers.
 * DimDate Calendar Modeling
 * Relational Database Design
 * Data Warehouse Concepts
+* Dimensional Data Warehousing
 
 ## How to Run This Project
 Prerequisites
@@ -889,5 +904,5 @@ retail-business-analytics-sql-project/
 
 Junior Data Analyst | SQL | Python | Power BI | Data Analytics
 
-- LinkedIn: http://www.linkedin.com/in/talifhani-edward-nedambale/
-- GitHub: https://github.com/talifhaniedward
+LinkedIn: [Talifhani Edward Nedambale](http://www.linkedin.com/in/talifhani-edward-nedambale/)
+GitHub: [talifhaniedward](https://github.com/talifhaniedward)
